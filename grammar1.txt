@@ -1,0 +1,8 @@
+E -> T Ea ;
+Ea -> '+' T Ea | epsilon ;              
+T -> F Ta ;
+Ta -> '*' F Ta | epsilon ;
+F -> id | '(' E ')' ;
+
+
+
