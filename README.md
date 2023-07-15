@@ -3,6 +3,7 @@
 
 This project consists of series of programs in 12 steps.
 Which is taking a context free grammar in grammar1.txt and generates ll(1) parse table.
+
 The final output files are:
 
 1. firstSet.txt which is the FIRST set of CFG
