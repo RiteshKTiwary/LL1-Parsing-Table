@@ -4,6 +4,8 @@ Subject: Compilers Construction
 This project consists of series of programs in 12 steps.
 Which is taking a context free grammar in grammar1.txt and generates ll(1) parse table.
 
+These 12 steps program are mixed of c and flex programming languages.
+
 following assumptions has been made:
 
 1.	Each symbols are space separated.
@@ -60,6 +62,3 @@ step 12:using above all it gives output of
 
 All follows general procedures for making output. but make sure to run step wise. otherwise you can
 get some error in reading files.
-
-Further plan was to make sure of any input of set of strings which can be parsed or not by the ll(1)
-parser that I have created, using parse table as header file.
